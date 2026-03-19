@@ -1,0 +1,9 @@
+{
+  "query": "CREATE TABLE `boards` (\n\t`id` int AUTO_INCREMENT NOT NULL,\n\t`userId` int NOT NULL,\n\t`name` varchar(255) NOT NULL,\n\t`materialType` varchar(50) NOT NULL,\n\t`width` int NOT NULL,\n\t`height` int NOT NULL,\n\t`thickness` int NOT NULL,\n\t`price` varchar(20) NOT NULL,\n\t`quantity` int NOT NULL,\n\t`createdAt` timestamp NOT NULL DEFAULT (now()),\n\t`updatedAt` timestamp NOT NULL DEFAULT (now()) ON UPDATE CURRENT_TIMESTAMP,\n\tCONSTRAINT `boards_id` PRIMARY KEY(`id`)\n);",
+  "command": "mysql --batch --raw --column-names --default-character-set=utf8mb4 --host gateway02.us-east-1.prod.aws.tidbcloud.com --port 4000 --user 3CnwCodm41iwRpd.3fe1647fb6f4 --database A2an6jAJC2f9ycbvMkBqMm --execute CREATE TABLE `boards` (\n\t`id` int AUTO_INCREMENT NOT NULL,\n\t`userId` int NOT NULL,\n\t`name` varchar(255) NOT NULL,\n\t`materialType` varchar(50) NOT NULL,\n\t`width` int NOT NULL,\n\t`height` int NOT NULL,\n\t`thickness` int NOT NULL,\n\t`price` varchar(20) NOT NULL,\n\t`quantity` int NOT NULL,\n\t`createdAt` timestamp NOT NULL DEFAULT (now()),\n\t`updatedAt` timestamp NOT NULL DEFAULT (now()) ON UPDATE CURRENT_TIMESTAMP,\n\tCONSTRAINT `boards_id` PRIMARY KEY(`id`)\n);",
+  "rows": [],
+  "messages": [],
+  "stdout": "",
+  "stderr": "",
+  "execution_time_ms": 1850
+}
