@@ -37,6 +37,13 @@ const modules: Module[] = [
     route: "/materials",
   },
   {
+    id: "board-breakdown",
+    title: "Despiece de Tableros",
+    description: "Carga un PDF de CutList Optimizer y sigue el corte paso a paso",
+    icon: "content-cut",
+    route: "/board-breakdown",
+  },
+  {
     id: "settings",
     title: "Configuración",
     description: "Ajustes de la aplicación",
