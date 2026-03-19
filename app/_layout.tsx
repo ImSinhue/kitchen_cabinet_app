@@ -95,6 +95,7 @@ export default function RootLayout() {
             <Stack.Screen name="cabinets/create" />
             <Stack.Screen name="cabinets/list" />
             <Stack.Screen name="cabinets/detail" />
+            <Stack.Screen name="board-breakdown" />
           </Stack>
           <StatusBar style="auto" />
         </QueryClientProvider>
